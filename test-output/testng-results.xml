@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching:actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is not matchign:actiTIME -  Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[photo is taken:C:\Users\IBM_ADMIN\Desktop\QSPIDERS\Telecom\AutoFramework\photos13-07-17-08-57-01.png]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20761" started-at="2017-07-13T15:26:42Z" finished-at="2017-07-13T15:27:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20761" started-at="2017-07-13T15:26:42Z" finished-at="2017-07-13T15:27:03Z">
+      <class name="com.AutoFramewrok.testng.ValidLoginLogout">
+        <test-method status="PASS" signature="setDriverPath()[pri:0, instance:com.AutoFramewrok.testng.ValidLoginLogout@675d3402]" name="setDriverPath" is-config="true" duration-ms="15" started-at="2017-07-13T20:56:42Z" finished-at="2017-07-13T20:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriverPath -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.AutoFramewrok.testng.ValidLoginLogout@675d3402]" name="openApp" is-config="true" duration-ms="7176" started-at="2017-07-13T20:56:42Z" finished-at="2017-07-13T20:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="FAIL" signature="testValidLoginLogout()[pri:1, instance:com.AutoFramewrok.testng.ValidLoginLogout@675d3402]" name="testValidLoginLogout" duration-ms="11993" started-at="2017-07-13T20:56:49Z" finished-at="2017-07-13T20:57:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.AutoFramewrok.pom.BasePage.verifyTitle(BasePage.java:27)
+	at com.AutoFramewrok.testng.ValidLoginLogout.testValidLoginLogout(ValidLoginLogout.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching:actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Title is not matchign:actiTIME -  Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[photo is taken:C:\Users\IBM_ADMIN\Desktop\QSPIDERS\Telecom\AutoFramework\photos13-07-17-08-57-01.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:com.AutoFramewrok.testng.ValidLoginLogout@675d3402]" name="CloseApp" is-config="true" duration-ms="1350" started-at="2017-07-13T20:57:01Z" finished-at="2017-07-13T20:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- com.AutoFramewrok.testng.ValidLoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
